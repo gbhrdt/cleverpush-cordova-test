@@ -21,6 +21,15 @@ export class AppComponent {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      var notificationOpenedCallback = function(data) {
+        console.log('notificationOpenedCallback:', JSON.stringify(data));
+      };
+      var subscribedCallback = function(subscriptionId) {
+        console.log('subscriptionId:', subscriptionId);
+      };
+
+      window['plugins'].CleverPush.init("Mw29Mswn2DgRD3Zyx", notificationOpenedCallback, subscribedCallback);
     });
   }
 }
