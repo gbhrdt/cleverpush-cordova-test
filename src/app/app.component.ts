@@ -18,18 +18,30 @@ export class AppComponent {
   }
 
   initializeApp() {
+    alert('Initializing App');
+    console.log('Initializing App');
+
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
 
+      console.log('Initializing CleverPush…');
+      alert('App Ready');
+
       var notificationOpenedCallback = function(data) {
         console.log('notificationOpenedCallback:', JSON.stringify(data));
+        alert('CleverPush Notification Opened Callback');
+      };
+      var notificationReceivedCallback = function(data) {
+        console.log('notificationReceivedCallback:', JSON.stringify(data));
       };
       var subscribedCallback = function(subscriptionId) {
-        console.log('subscriptionId:', subscriptionId);
+        console.log('CleverPush subscriptionId:', subscriptionId);
+        alert('CleverPush subscribedCallback');
       };
 
-      window['plugins'].CleverPush.init("Mw29Mswn2DgRD3Zyx", notificationOpenedCallback, subscribedCallback);
+      window['plugins'].CleverPush.init("QZCYbr96uLMC26E2G", notificationOpenedCallback, notificationReceivedCallback, subscribedCallback);
     });
   }
 }
+
