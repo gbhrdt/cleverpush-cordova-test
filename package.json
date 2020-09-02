@@ -76,7 +76,8 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-androidx": {},
-      "cordova-plugin-androidx-adapter": {}
+      "cordova-plugin-androidx-adapter": {},
+      "cleverpush-cordova-plugin": {}
     },
     "platforms": [
       "ios",

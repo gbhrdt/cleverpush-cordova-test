@@ -1,0 +1,12 @@
+{
+    "declarations": {},
+    "sources": {},
+    "libraries": {
+        "CleverPush": {
+            "name": "CleverPush",
+            "type": "podspec",
+            "spec": "~> 0.6.2",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cleverpush-cordova-plugin"
+        version="1.4.0">
+
+    <name>CleverPush</name>
+    <author>CleverPush GmbH</author>
+
+    <description>CleverPush is a feature rich Push Notification Service for Web and App.</description>
+
+    <keywords>push,notification,cleverpush</keywords>
+
+    <license>MIT</license>
+
+    <js-module src="www/cleverpush.js" name="CleverPush">
+        <clobbers target="CleverPush" />
+    </js-module>
+
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0" />
+        <engine name="apple-xcode" version=">=6.2.0" />
+        <engine name="apple-ios" version=">=7.0.0" />
+    </engines>
+
+    <platform name="android">
+
+        <framework src="com.cleverpush:cleverpush:1.5.0" />
+        <framework src="com.google.firebase:firebase-messaging:17+" />
+        <framework src="com.google.code.gson:gson:2.8.6" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="CleverPush" >
+                <param name="android-package" value="com.cleverpush.cordova.CleverPushPlugin" />
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <service
+                    android:name="com.cleverpush.service.CleverPushFcmListenerService">
+                <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+            <service
+                    android:name="com.cleverpush.service.CleverPushInstanceIDListenerService">
+                <intent-filter>
+                    <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                </intent-filter>
+            </service>
+        </config-file>
+
+        <source-file src="src/android/CleverPushPlugin.java" target-dir="src/" />
+    </platform>
+
+    <platform name="ios">
+
+        <framework src="CleverPush" type="podspec" spec="~> 0.6.2" />
+
+        <pod name="CleverPush" />
+
+        <!--<header-file src="src/ios/AppDelegate+CleverPush.h" />-->
+        <header-file src="src/ios/CleverPushPlugin.h" />
+
+        <!--<source-file src="src/ios/AppDelegate+CleverPush.m" />-->
+        <source-file src="src/ios/CleverPushPlugin.m" />
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="CleverPush">
+                <param name="ios-package" value="CleverPushPlugin" />
+            </feature>
+        </config-file>
+
+        <framework src="SystemConfiguration.framework" />
+
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>remote-notification</string>
+            </array>
+        </config-file>
+
+        <config-file target="*-Debug.plist" parent="aps-environment">
+            <string>development</string>
+        </config-file>
+        <config-file target="*-Release.plist" parent="aps-environment">
+            <string>production</string>
+        </config-file>
+
+    </platform>
+
+</plugin>

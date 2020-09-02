@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		456D46163D1BDC8F50A0A06E45787214 /* CleverPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 365383B33EC73E096C337C806970C499 /* Build configuration list for PBXAggregateTarget "CleverPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CleverPush;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A9C3933F2CE5F4DF3384CDC3A5967DBC /* Pods-MyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABE8A393204E1126ACED568B7861505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456D46163D1BDC8F50A0A06E45787214;
+			remoteInfo = CleverPush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.debug.xcconfig; sourceTree = "<group>"; };
+		339391D89998C5DC4159D8B96A11635D /* Pods-MyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApp-dummy.m"; sourceTree = "<group>"; };
+		620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		684625585B5002628DD733354DACB30F /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyApp.a"; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1CAFFB22CD41A2CAC6F3C1ABABD1AE2 /* CleverPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleverPush.framework; path = CleverPush/Framework/CleverPush.framework; sourceTree = "<group>"; };
+		E3596EF5927285879A82B3F6D79D7700 /* Pods-MyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4199C22F86DF02758B403254DD3CFFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149053E76446DB7410CCAB824F30E7FE /* CleverPush */ = {
+			isa = PBXGroup;
+			children = (
+				194262C6D8D5ACB6A5994B7EF90929DF /* Frameworks */,
+				6EDECF4BE18D514B5DFE95F658DDD0B1 /* Support Files */,
+			);
+			name = CleverPush;
+			path = CleverPush;
+			sourceTree = "<group>";
+		};
+		194262C6D8D5ACB6A5994B7EF90929DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1CAFFB22CD41A2CAC6F3C1ABABD1AE2 /* CleverPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EDECF4BE18D514B5DFE95F658DDD0B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */,
+				68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CleverPush";
+			sourceTree = "<group>";
+		};
+		86FF26761F1437CC9CB545FAAF5F7113 /* Pods-MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				E3596EF5927285879A82B3F6D79D7700 /* Pods-MyApp-acknowledgements.markdown */,
+				339391D89998C5DC4159D8B96A11635D /* Pods-MyApp-acknowledgements.plist */,
+				42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */,
+				FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */,
+				620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */,
+			);
+			name = "Pods-MyApp";
+			path = "Target Support Files/Pods-MyApp";
+			sourceTree = "<group>";
+		};
+		90A80D9999548252768A36CF348FC636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149053E76446DB7410CCAB824F30E7FE /* CleverPush */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B598354EB706582870698F068EB21FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684625585B5002628DD733354DACB30F /* libPods-MyApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				90A80D9999548252768A36CF348FC636 /* Pods */,
+				B598354EB706582870698F068EB21FB2 /* Products */,
+				E929E8468D1861AC9BFFF2AEFED4FD90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E929E8468D1861AC9BFFF2AEFED4FD90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86FF26761F1437CC9CB545FAAF5F7113 /* Pods-MyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAF6A380B673D9F89B6D0EADF2AF3A80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4255925345F39757951D1D1864535DD4 /* Pods-MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80B25C82526E1BC41C107AFF7439DE7 /* Build configuration list for PBXNativeTarget "Pods-MyApp" */;
+			buildPhases = (
+				DAF6A380B673D9F89B6D0EADF2AF3A80 /* Headers */,
+				105F8670D259C6EAFFD47986AF317FB2 /* Sources */,
+				4199C22F86DF02758B403254DD3CFFCE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93520E40FC4D303E7C640126AC6F500C /* PBXTargetDependency */,
+			);
+			name = "Pods-MyApp";
+			productName = "Pods-MyApp";
+			productReference = 684625585B5002628DD733354DACB30F /* libPods-MyApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B598354EB706582870698F068EB21FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456D46163D1BDC8F50A0A06E45787214 /* CleverPush */,
+				4255925345F39757951D1D1864535DD4 /* Pods-MyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105F8670D259C6EAFFD47986AF317FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C3933F2CE5F4DF3384CDC3A5967DBC /* Pods-MyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93520E40FC4D303E7C640126AC6F500C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleverPush;
+			target = 456D46163D1BDC8F50A0A06E45787214 /* CleverPush */;
+			targetProxy = AABE8A393204E1126ACED568B7861505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1583AA0C129E9857F964AB617D37DC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		494A72EAC8D79FF46051F08CF9CEA2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7B94412EBBCCE6A79F74E94A51EC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED84498FE729747BF950E459BFA0C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365383B33EC73E096C337C806970C499 /* Build configuration list for PBXAggregateTarget "CleverPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1583AA0C129E9857F964AB617D37DC1D /* Debug */,
+				494A72EAC8D79FF46051F08CF9CEA2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80B25C82526E1BC41C107AFF7439DE7 /* Build configuration list for PBXNativeTarget "Pods-MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7B94412EBBCCE6A79F74E94A51EC08 /* Debug */,
+				ED84498FE729747BF950E459BFA0C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
