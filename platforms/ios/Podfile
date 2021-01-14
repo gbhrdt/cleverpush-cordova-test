@@ -4,5 +4,5 @@ platform :ios, '11.0'
 
 target 'MyApp' do
 	project 'MyApp.xcodeproj'
-	pod 'CleverPush', '~> 0.6.2'
+	pod 'CleverPush', '~> 1.1.0'
 end

@@ -15,11 +15,12 @@
 			dependencies = (
 			);
 			name = CleverPush;
+			productName = CleverPush;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A9C3933F2CE5F4DF3384CDC3A5967DBC /* Pods-MyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */; };
+		A9C3933F2CE5F4DF3384CDC3A5967DBC /* Pods-MyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D76D320D6B1E761259EE4DE496D75B /* Pods-MyApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.debug.xcconfig; sourceTree = "<group>"; };
-		339391D89998C5DC4159D8B96A11635D /* Pods-MyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApp-dummy.m"; sourceTree = "<group>"; };
-		620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
-		684625585B5002628DD733354DACB30F /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyApp.a"; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1CAFFB22CD41A2CAC6F3C1ABABD1AE2 /* CleverPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleverPush.framework; path = CleverPush/Framework/CleverPush.framework; sourceTree = "<group>"; };
-		E3596EF5927285879A82B3F6D79D7700 /* Pods-MyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		19ECB053DDCC0403E2163DB32847FC9A /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		2A0DF8D21BF14D63B81F268761E534B4 /* CleverPush.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CleverPush.strings; path = en.lproj/CleverPush.strings; sourceTree = "<group>"; };
+		684625585B5002628DD733354DACB30F /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0D4C7B46A6CD22D5213ABC84600C07 /* Pods-MyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApp-resources.sh"; sourceTree = "<group>"; };
+		6CF5923C1BECBD0DDFA2C44C80FDB8A3 /* Pods-MyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8182A2B155F1D5D2FF98D2BE7529D89E /* CleverPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.release.xcconfig; sourceTree = "<group>"; };
+		90D76D320D6B1E761259EE4DE496D75B /* Pods-MyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApp-dummy.m"; sourceTree = "<group>"; };
+		91D1DCD3455ECA9B32C0893B75443A76 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		951275BDF0C0797D9F48FD54466714B1 /* Pods-MyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5A941378824C91497F914E8A2E72873 /* CleverPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverPush.debug.xcconfig; sourceTree = "<group>"; };
+		AD0282A527B6C9F67A22FB71E01C31CB /* CleverPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleverPush.framework; path = CleverPush/Framework/CleverPush.framework; sourceTree = "<group>"; };
+		D4EACC513EC55568D1D2478C3FD29296 /* CleverPush.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CleverPush.strings; path = de.lproj/CleverPush.strings; sourceTree = "<group>"; };
+		F6925AF8527502C9535176127D3F4AB9 /* CleverPush.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CleverPush.strings; path = English.lproj/CleverPush.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,51 +61,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		149053E76446DB7410CCAB824F30E7FE /* CleverPush */ = {
+		3815119228A97BCE020903311179B97B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				194262C6D8D5ACB6A5994B7EF90929DF /* Frameworks */,
-				6EDECF4BE18D514B5DFE95F658DDD0B1 /* Support Files */,
-			);
-			name = CleverPush;
-			path = CleverPush;
-			sourceTree = "<group>";
-		};
-		194262C6D8D5ACB6A5994B7EF90929DF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B1CAFFB22CD41A2CAC6F3C1ABABD1AE2 /* CleverPush.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6EDECF4BE18D514B5DFE95F658DDD0B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */,
-				68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */,
+				A5A941378824C91497F914E8A2E72873 /* CleverPush.debug.xcconfig */,
+				8182A2B155F1D5D2FF98D2BE7529D89E /* CleverPush.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CleverPush";
 			sourceTree = "<group>";
 		};
-		86FF26761F1437CC9CB545FAAF5F7113 /* Pods-MyApp */ = {
+		78E4733DFC52EC6D7F83BAF3B8ED2727 /* CleverPush */ = {
 			isa = PBXGroup;
 			children = (
-				E3596EF5927285879A82B3F6D79D7700 /* Pods-MyApp-acknowledgements.markdown */,
-				339391D89998C5DC4159D8B96A11635D /* Pods-MyApp-acknowledgements.plist */,
-				42A337D9B7819B2C2BA2BB794D82ACE0 /* Pods-MyApp-dummy.m */,
-				FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */,
-				620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */,
+				BD92B8EA5F8BB645C5D0F92B4C9836C9 /* Frameworks */,
+				F368AC648EF758E70DE31B962E75279D /* Resources */,
+				3815119228A97BCE020903311179B97B /* Support Files */,
+			);
+			path = CleverPush;
+			sourceTree = "<group>";
+		};
+		950A64740F9210E151232D6A0D19CE8C /* Pods-MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				6CF5923C1BECBD0DDFA2C44C80FDB8A3 /* Pods-MyApp-acknowledgements.markdown */,
+				951275BDF0C0797D9F48FD54466714B1 /* Pods-MyApp-acknowledgements.plist */,
+				90D76D320D6B1E761259EE4DE496D75B /* Pods-MyApp-dummy.m */,
+				6C0D4C7B46A6CD22D5213ABC84600C07 /* Pods-MyApp-resources.sh */,
+				91D1DCD3455ECA9B32C0893B75443A76 /* Pods-MyApp.debug.xcconfig */,
+				19ECB053DDCC0403E2163DB32847FC9A /* Pods-MyApp.release.xcconfig */,
 			);
 			name = "Pods-MyApp";
 			path = "Target Support Files/Pods-MyApp";
 			sourceTree = "<group>";
 		};
-		90A80D9999548252768A36CF348FC636 /* Pods */ = {
+		ACA2E5B62B613BA4138C7D703F6DF350 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				149053E76446DB7410CCAB824F30E7FE /* CleverPush */,
+				78E4733DFC52EC6D7F83BAF3B8ED2727 /* CleverPush */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -113,14 +111,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BD92B8EA5F8BB645C5D0F92B4C9836C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0282A527B6C9F67A22FB71E01C31CB /* CleverPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08A4868FCFD9782AE8AA3E6E569B3F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				950A64740F9210E151232D6A0D19CE8C /* Pods-MyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				90A80D9999548252768A36CF348FC636 /* Pods */,
+				ACA2E5B62B613BA4138C7D703F6DF350 /* Pods */,
 				B598354EB706582870698F068EB21FB2 /* Products */,
-				E929E8468D1861AC9BFFF2AEFED4FD90 /* Targets Support Files */,
+				C08A4868FCFD9782AE8AA3E6E569B3F8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,12 +145,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E929E8468D1861AC9BFFF2AEFED4FD90 /* Targets Support Files */ = {
+		F368AC648EF758E70DE31B962E75279D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				86FF26761F1437CC9CB545FAAF5F7113 /* Pods-MyApp */,
+				D549BD9B81B37BC820875EAB035FEE1D /* CleverPush.strings */,
 			);
-			name = "Targets Support Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +200,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				English,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = B598354EB706582870698F068EB21FB2 /* Products */;
@@ -218,10 +234,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D549BD9B81B37BC820875EAB035FEE1D /* CleverPush.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EACC513EC55568D1D2478C3FD29296 /* CleverPush.strings */,
+				2A0DF8D21BF14D63B81F268761E534B4 /* CleverPush.strings */,
+				F6925AF8527502C9535176127D3F4AB9 /* CleverPush.strings */,
+			);
+			name = CleverPush.strings;
+			path = CleverPush/CleverPush/Source;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1583AA0C129E9857F964AB617D37DC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00FCD58C5C3841AC54AF343C3E0E61D9 /* CleverPush.debug.xcconfig */;
+			baseConfigurationReference = A5A941378824C91497F914E8A2E72873 /* CleverPush.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,8 +317,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -296,7 +325,7 @@
 		};
 		494A72EAC8D79FF46051F08CF9CEA2F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D93F8C06877AB098215C06586C646A /* CleverPush.release.xcconfig */;
+			baseConfigurationReference = 8182A2B155F1D5D2FF98D2BE7529D89E /* CleverPush.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,7 +341,7 @@
 		};
 		BF7B94412EBBCCE6A79F74E94A51EC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC9FB1D7F4E0099BFABE8685AACFA90 /* Pods-MyApp.debug.xcconfig */;
+			baseConfigurationReference = 91D1DCD3455ECA9B32C0893B75443A76 /* Pods-MyApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -399,7 +428,7 @@
 		};
 		ED84498FE729747BF950E459BFA0C35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 620E13E8799DE9BD3113100D4DE928E9 /* Pods-MyApp.release.xcconfig */;
+			baseConfigurationReference = 19ECB053DDCC0403E2163DB32847FC9A /* Pods-MyApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";

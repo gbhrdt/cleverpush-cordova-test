@@ -5,7 +5,7 @@
         "CleverPush": {
             "name": "CleverPush",
             "type": "podspec",
-            "spec": "~> 0.6.2",
+            "spec": "~> 1.1.0",
             "count": 1
         }
     }

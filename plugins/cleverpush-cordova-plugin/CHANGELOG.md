@@ -1,3 +1,7 @@
+# 1.4.1
+
+* Bump Android SDK & iOS SDK versions
+
 # 1.4.0
 
 * Bump Android SDK version to 1.5.0

@@ -66,6 +66,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-ionic-keyboard": "2.1.3",
     "cordova-plugin-androidx": "1.0.2",
     "cordova-plugin-androidx-adapter": "1.1.0",
-    "cleverpush-cordova-plugin": "1.4.0"
+    "cleverpush-cordova-plugin": "1.4.1"
   };
 });

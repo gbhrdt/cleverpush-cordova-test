@@ -65,6 +65,11 @@ extern NSString * const CLEVERPUSH_SDK_VERSION;
    handleNotificationOpened:(CPHandleNotificationOpenedBlock)openedCallback handleSubscribed:(CPHandleSubscribedBlock)subscribedCallback autoRegister:(BOOL)autoRegister;
 + (id)initWithLaunchOptions:(NSDictionary*)launchOptions channelId:(NSString*)channelId handleNotificationOpened:(CPHandleNotificationOpenedBlock)openedCallback handleSubscribed:(CPHandleSubscribedBlock)subscribedCallback autoRegister:(BOOL)autoRegister;
 
++ (void)setTrackingConsentRequired:(BOOL)required;
++ (void)setTrackingConsent:(BOOL)consent;
+
++ (void)enableDevelopmentMode;
+
 + (NSString*)channelId;
 
 + (BOOL)isSubscribed;
@@ -81,7 +86,10 @@ extern NSString * const CLEVERPUSH_SDK_VERSION;
 + (BOOL)handleSilentNotificationReceived:(UIApplication*)application UserInfo:(NSDictionary*)messageDict completionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
 + (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withMutableNotificationContent:(UNMutableNotificationContent*)replacementContent;
 + (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withMutableNotificationContent:(UNMutableNotificationContent*)replacementContent;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated"
 + (void)processLocalActionBasedNotification:(UILocalNotification*) notification actionIdentifier:(NSString*)actionIdentifier;
+#pragma clang diagnostic pop
 
 + (void)enqueueRequest:(NSURLRequest*)request onSuccess:(CPResultSuccessBlock)successBlock onFailure:(CPFailureBlock)failureBlock;
 + (void)handleJSONNSURLResponse:(NSURLResponse*) response data:(NSData*) data error:(NSError*) error onSuccess:(CPResultSuccessBlock)successBlock onFailure:(CPFailureBlock)failureBlock;
@@ -101,6 +109,7 @@ extern NSString * const CLEVERPUSH_SDK_VERSION;
 + (NSString*)getSubscriptionAttribute:(NSString*)attributeId;
 + (void)setSubscriptionLanguage:(NSString*)language;
 + (void)setSubscriptionCountry:(NSString*)country;
++ (void)setTopicsDialogWindow:(UIWindow *)window;
 + (NSMutableArray*)getSubscriptionTopics;
 + (void)setSubscriptionTopics:(NSMutableArray *)topics;
 + (void)setBrandingColor:(UIColor *)color;
@@ -110,6 +119,7 @@ extern NSString * const CLEVERPUSH_SDK_VERSION;
 + (void)setAutoClearBadge:(BOOL)autoClear;
 + (void)addChatView:(CPChatView*)chatView;
 + (void)showTopicsDialog;
++ (void)showTopicsDialog:(UIWindow *)targetWindow;
 + (void)showAppBanners;
 + (void)showAppBanners:(void(^)(NSString *))urlOpenedCallback;
 + (void)reLayoutAppBanner;
